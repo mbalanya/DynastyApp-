@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "BakiApp",
-    "slug": "BakiApp",
+    "name": "DynastyApp",
+    "slug": "DynastyApp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,13 +17,18 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.mbalanya.dynastyApp",
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.mbalanya.dynastyApp",
+      "versionCode": 1,
+      "useNextNotificationsApi": true
     },
     "web": {
       "favicon": "./assets/favicon.png"
